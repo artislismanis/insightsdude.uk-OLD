@@ -27,6 +27,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jemoji
 
 # Override default excludes
 exclude:
