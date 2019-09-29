@@ -12,5 +12,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap", "~> 1.3.1"
   gem "jemoji", "~> 0.11.1"
   gem "jekyll-gist", "~> 1.5.0"
+  gem "jekyll_version_plugin", "~> 2.0.0"
 end
 
