@@ -24,6 +24,7 @@ minima:
 # Enable installed plugins
 plugins:
   - jekyll-feed
+  - jekyll-gist
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
