@@ -13,6 +13,9 @@ show_excerpts: true
 twitter_username: artislismanis
 github_username:  artislismanis
 
+#Google Analytics Settings
+google_analytics: "UA-140855486-1"
+
 # Theme configuration
 theme: minima
 minima:
@@ -21,6 +24,9 @@ minima:
 # Enable installed plugins
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Override default excludes
 exclude:
