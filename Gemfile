@@ -17,5 +17,6 @@ group :jekyll_plugins do
   gem "liquid_pluralize", "~> 1.0.3"
   gem "jekyll-toc", "~> 0.12.2"
   gem "jekyll-sass-converter", "~> 2.0.1"
+  gem "jekyll-paginate-v2", "~> 1.5.2"
 end
 

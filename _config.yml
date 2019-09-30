@@ -5,9 +5,18 @@ email: info@insightsdude.uk
 description: Passionate about making data easy
 url: "https://insightsdude.uk" 
 
-#Post processing config
+# Post processing config
 permalink: /:year/:month/:day/:title:output_ext
 show_excerpts: true
+
+# Post Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 #Social media settings
 twitter_username: artislismanis
@@ -34,6 +43,7 @@ plugins:
   - liquid_pluralize
   - jekyll-toc
   - jekyll-sass-converter
+  - jekyll-paginate-v2
 
 # SASS Settings
 sass:
