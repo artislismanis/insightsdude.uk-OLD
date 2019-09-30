@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2019-09-29 20:35:51 +0000
 categories: jekyll update
 toc: true
+youtubeId: XJQy_R9CYR4
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -12,6 +13,8 @@ I give jemoji plugin two :+1:!
 
 {% gist c08ee0f2726fd0e3909d %}
 
+
+{% include video/youtubePlayer.html id=page.youtubeId %}
 
 # Heading 1
 ## Heading 1.1
