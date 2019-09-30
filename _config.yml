@@ -18,6 +18,9 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+disqus:
+  shortname: "insightsdude-uk"
+
 #Social media settings
 twitter_username: artislismanis
 github_username:  artislismanis
