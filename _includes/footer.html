@@ -1,36 +1,19 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
   <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
+      <div class="footer-col">
         {%- include social.html -%}
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-	<p>Build: {% project_version tag short %}</p>
+      <div class="footer-col">      
+<span class="footer-meta">	
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</span>
+      </div>
+     <div class="footer-col">
+ 	<span class="footer-meta">Check out our <a rel="privacy policy" href="/privacy-policy/">Privacy Policy</a>.</span>
+        <span class="footer-meta">Made using Jekyll.</span>
+	<span class="footer-meta">Build: {% project_version tag short %}</span>
       </div>
     </div>
-
   </div>
-
 </footer>
