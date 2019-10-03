@@ -1,0 +1,73 @@
+# Site information
+lang: en_GB 
+title: insightsdude.uk
+email: info@insightsdude.uk
+description: Passionate about making data easy
+url: "https://insightsdude.uk" 
+
+
+# Post processing config
+permalink: /:year/:month/:day/:title:output_ext
+show_excerpts: true
+
+# Post Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+disqus:
+  shortname: "insightsdude-uk"
+
+#Social media settings
+linkedin_username: artislismanis
+twitter_username: artislismanis
+github_username:  artislismanis
+youtube_username: UC_mlB2W8nOL3sYoFAsekzRQ
+rss: true
+
+#Google Analytics Settings
+google_analytics: "UA-140855486-1"
+
+# Theme configuration
+theme: minima
+minima:
+  date_format: "%Y-%m-%d"
+
+# Enable installed plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll_version_plugin
+  - jemoji
+  - liquid_reading_time
+  - liquid_pluralize
+  - jekyll-toc
+  - jekyll-sass-converter
+  - jekyll-paginate-v2
+
+# SASS Settings
+sass:
+  sass_dir: /_sass
+  style: compressed
+
+# Override default excludes
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - README.md
+   - .gitignore
