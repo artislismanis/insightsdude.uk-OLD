@@ -5,6 +5,7 @@ email: info@insightsdude.uk
 description: Passionate about making data easy
 url: "https://insightsdude.uk" 
 
+
 # Post processing config
 permalink: /:year/:month/:day/:title:output_ext
 show_excerpts: true
@@ -22,8 +23,11 @@ disqus:
   shortname: "insightsdude-uk"
 
 #Social media settings
+linkedin_username: artislismanis
 twitter_username: artislismanis
 github_username:  artislismanis
+youtube_username: UC_mlB2W8nOL3sYoFAsekzRQ
+rss: true
 
 #Google Analytics Settings
 google_analytics: "UA-140855486-1"
