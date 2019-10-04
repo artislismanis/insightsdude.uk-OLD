@@ -71,3 +71,4 @@ exclude:
    - vendor/ruby/
    - README.md
    - .gitignore
+   - amplify.yml
