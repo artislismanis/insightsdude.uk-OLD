@@ -29,6 +29,8 @@ git remote add origin [user@]host.xz:path/to/repo.git/
 {% highlight sh %}
 git init
 git status
+git branch 
+git checkout BRANCHNAME
 git add .
 git commit 
 git pull origin
@@ -39,7 +41,7 @@ git push -u origin master
 
 ## Gitflow Basics
 
-This assumes git-flow git extension has been installed. On a Debian based system this can be 
+l
 
 
 {% highlight sh %}
