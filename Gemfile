@@ -18,5 +18,6 @@ group :jekyll_plugins do
   gem "jekyll-toc", "~> 0.12.2"
   gem "jekyll-sass-converter", "~> 2.0.1"
   gem "jekyll-paginate-v2", "~> 1.5.2"
+  gem "jekyll-postfiles", "~> 2.1.1"
 end
 

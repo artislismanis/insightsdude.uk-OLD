@@ -51,6 +51,7 @@ plugins:
   - jekyll-toc
   - jekyll-sass-converter
   - jekyll-paginate-v2
+  - jekyll-postfiles
 
 # SASS Settings
 sass:
